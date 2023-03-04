@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+*{
+margin: 0px;
+padding: 0px; 
+}
+body{
+background-image: url(hearts6.gif);
+width: 60vw;
+margin-left: 20vw;
+height: 50vh;
+animation-name: animacao;
+animation-duration: 10s;
+text-align: center;
+font-family: 'Shantell Sans', cursive;
+margin-top: 19%;
+font-size: 29pt;
+text-shadow: 1px 1px 1px black;
+}
+@keyframes animacao{
+0%{
+background-color: #F2055C;
+font-size: 15pt;
+text-indent: 10%;
+color: #05F2F2;
+text-shadow: 1px 1px 1px black;
+}
+45%{
+background-color: #F20587;
+font-size: 20pt;
+text-indent: 15%;
+color: #F28705;
+}
+90%{
+background-color: #F20505;
+text-indent: 25%;
+color: #F2CB05;
+}
